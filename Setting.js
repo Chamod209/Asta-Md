@@ -29,7 +29,7 @@ module.exports = {
   packname:  process.env.PACK_NAME || "Asta-Md" , 
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'true', 
+  alwaysonline: process.env.ALWAYS_ONLINE || 'false', 
   antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
   readmessage: process.env.READ_MESSAGE || 'true',
   HANDLERS: process.env.PREFIX || '.',
